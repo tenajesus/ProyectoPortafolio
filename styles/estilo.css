@@ -1,0 +1,97 @@
+body,html{
+    height: 100%;
+    margin:auto;
+    color: #777;
+}
+
+.menu{
+  min-height: 7%;
+  font-family: monospace,bold;  
+  text-align: right;
+  padding-top: 18px;
+  /* background-color: gray; */
+}
+.menu li {
+    display: inline-block;
+}
+.menu li a {
+    padding: 20px 40px;
+    color: #585f7b;
+    text-decoration: none;
+}
+.bio{
+background-image: url('../img/code.jpg');
+min-height: 100%;
+}
+.quiensoy{
+/* background-image: url('../img/yo.jpg'); */
+min-height:70% ;
+}
+.skills{
+background-image: url('../img/skills.jpg');
+min-height: 100%;
+}
+/* .final{
+min-width: 50%;
+} */
+.bio,.quiensoy,.skills{
+position: relative; 
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+.saludo{
+    position: absolute;
+    left:0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+.present{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    padding: 50px;
+    font-family:'Arial';
+    text-decoration: none;
+}
+.present a {
+    text-decoration: none;
+}
+.saludo span.border{
+    background-color: gray;
+    opacity: 0.6;
+    padding: 15px;  
+    border-radius: 3px;
+    text-align: center;
+}
+.final{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    font-size:15px;
+    background-color: rgb(19, 19, 19);
+    padding: 20px;  
+}
+.specialfont{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.colors{
+  color:red;
+}
+.tw{
+    color: blue;
+}
+.sk{
+ color:orangered;
+}
+.contact{
+color:tomato;
+}
+.bioico{
+    color:purple;
+}
